@@ -7,7 +7,7 @@ public:
 
         while (l <= r) {
             int k = (l + r) / 2;
-            int hours = 0;
+            long hours = 0;
 
             for (const auto p : piles) {
                 hours += ceil((double)p / k);

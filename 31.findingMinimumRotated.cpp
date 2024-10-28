@@ -10,7 +10,7 @@ public:
                 res = min(res, nums[l]);
                 break;
             }
-            int m = (1 + r) / 2;
+            int m = (l + r) / 2;
             res = min(res, nums[m]);
             if (nums[m] >= nums[l]) {
                 l = m + 1;
