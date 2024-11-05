@@ -9,22 +9,6 @@
  * };
  */
 
-// class Solution {
-// public:
-//     bool hasCycle(ListNode* head) {
-//         vector<ListNode*> nodes;
-//         ListNode* aux = head;
-
-//         while(aux) {
-//             nodes.push_back(aux);
-//             if (find(nodes.begin(), nodes.end(), aux->next) != nodes.end()) {
-//                 return true;
-//             }
-//             aux = aux->next;
-//         }
-//         return false;
-//     }
-// };
 
 class Solution {
 public:
