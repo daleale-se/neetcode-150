@@ -1,18 +1,3 @@
-// class Solution {
-// public:
-//     int findDuplicate(vector<int>& nums) {
-//         vector<int> aux;
-//         for(int i = 0; i < nums.size(); ++i) {
-//             if (find(aux.begin(), aux.end(), nums[i]) != aux.end()) {
-//                 return nums[i];
-//             } else {
-//                 aux.push_back(nums[i]);
-//             }
-//         }
-//         return 0;
-//     }
-// };
-
 
 class Solution {
 public:
